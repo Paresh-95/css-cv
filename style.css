@@ -6,109 +6,65 @@ body{
   font-weight: 900;
   background-color:#E4F9F5;
 }
+
 .top-container{
   background-color:#E4F9F5;
   position: relative;
   padding-top:100px;
 }
 
-.profile{
-  margin-bottom: 30px;
-  margin-top: 50px;
-}
 .pro{
   text-decoration: underline;
 }
+
 .alter{
   padding-left: 420px;
 }
-.skill-row{
-  width: 70%;
-  margin: 100px auto 100px auto;
-  line-height: 2;
-  text-align: left;
+
+.mySkill{
+  font-size: 2.5rem;
+  color: #F67280;
 }
-.skill-row1{
-  width: 70%;
-  margin: 100px auto 100px auto;
-  line-height: 2;
-  text-align: left;
-}
+/* images */
+
 .c-img{
-  margin-right: 30px;
-  width: 13%;
-  float: left;
-  position: relative;
-  top: 105px;
- 
+  width: 9%;
+}
+.j-img
+{
+  width: 8%;
+}
+.ht-img
+{
+  width: 12%;
+}
+.css-img
+{
+  width: 9%;
+}
+.auto-img
+{
+  width: 9.2%;
+}
+.ps-img
+{
+  width: 9.7%;
 }
 
-.j-img{
-  margin-left: 30px;
-  float: right;
-  width: 10.5%;
-  position: relative;
-  top: 55px;
-  
-}
-.ht-img{
-  margin-right: 30px;
-  width: 17%;
-  float: left;
-  position: relative;
-  top: 143px;
-
-}
-.css-img{
-  margin-left: 30px;
-  float: right;
-  width: 12.5%;
-  position: relative;
-  top: 105px;
-}
-.auto-img{
-  margin-right: 30px;
-  width: 13.5%;
-  float: left;
-  position: relative;
-  top: 142px;
-}
-
-.ps-img{
-  margin-left: 30px;
-  float: right;
-  width: 15.5%;
-  position: relative;
-  top: 120px;
-}
-.photo-p{
-  width: 600px;
-}
-.alter-0{
-  position: relative;
+.skill-section
+{
+  width: 70%;
   display: inline-block;
-  font-weight: bolder;
-  left: 40px;
+  justify-content: center;
+}
 
+.skill-row
+{
+  margin-top: 5%;
 }
-.alter-1{
-  position: relative;
-  left: 750px;
-  font-weight: bolder;
-  display: inline-block;
-}
-.alter-2{
-    position: relative;
-    left: 500;
-    font-weight: bolder;
-    display: inline-block;
-}
-.alter-3{
-  position: relative;
-  left: 570px;
-  font-weight: bolder;
-  display: inline-block;
-}
+
+
+
 .head{
   width: 30%;
   margin: 50px auto 0px auto;
@@ -117,14 +73,18 @@ body{
   color:#66BFBF;
 }
 
-h2{
+.Hello{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   color: #F67280;
+  margin-top: 4%;
+  margin-bottom: 4%;
   font-weight:bolder;
   
 }
-h3{
+
+.Did{
+  display: block;
   font-style: initial ;
   font-weight: bolder;
 }
@@ -143,48 +103,20 @@ h3{
 }
 
 .profile-photo{
-  margin-top: 20px;
+  margin-top: 5%;
   border-radius: 200px;
-  width: 220px;
-  height: 220px;
+  width: 20%;
+  height: 15%;
 }
 .intro{
   display: block;
-  padding-left: 50px;
-  padding-right: 50px;
-  text-align: justify;
-}
-
-/* JAVA */
-.java-p{
-
-  width:850px; 
-  text-align: justify;
-}
-/* C */
-.c-p{
-  
-  width: 810px;
-  margin-left: 200px;
-  text-align: justify;
-}
-/* html */
-
-.html-p{
-  width: 812px;
-  margin-left: 200px;
-  text-align: justify;
-}
-
-/* css */
-.css-p{
-  width: 812px;
+  padding: 2% 7% 7%;
   text-align: justify;
 }
 
 .footer{
   background-color: #66BFBF;
-  height: 150px;
+  height: 8em;
 
 }
 
@@ -216,45 +148,71 @@ h3{
 .footer-link2{
   color: #F67280;
 }
+
 hr{
-  border: dotted #ADA2FF 6px;
+  border: dotted #ADA2FF 10px;
   border-bottom: none;
   width: 4%;
-  margin: 100px auto;
-
+  
 
 }
 
+.hr1
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+  margin-bottom: 6%;
+}
+
+.hr2
+{
+  margin-top: 5%;
+  margin-bottom: 6%;
+}
+
+.cont{
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+}
 .middle-container{
   background-color: #DCEDC1;
-  width: 1000px;
-  height: 500px;
-  position: relative;
-  left: 225px;
+  width:80% ;
+  height:50% ;
   border-radius: 100px;
 }
 
 .contact-me{
-  background-color:#DCEDC1  ;
-  width: 1000px;
-  height: 300px;
-  position: relative;
-  left: 225px;
-  margin-bottom: 90px;
+  background-color: #DCEDC1;
+  width:80% ;
+  height:50% ;
   border-radius: 100px;
+  margin-bottom: 8%;
 }
+
 .contact-1{
-  /* margin-top: 30px; */
+  margin-top: 30px;
   display: inline-block;
 }
 
 .contact-2{
+  
   text-align: justify;
-  width: 900px;
-  margin-left: 50px;
+  width: 80%;
 }
+
+
+.para-last
+{
+  display: flex;
+  justify-content: center;
+  margin: 2% 5%;
+}
+
 .btn {
   background: #FD8A8A;
+  margin-bottom: 5%;
   background-image: -webkit-linear-gradient(top, #FD8A8A, #F67280);
   background-image: -moz-linear-gradient(top, #FD8A8A, #F67280);
   background-image: -ms-linear-gradient(top, #FD8A8A, #F67280);
@@ -278,8 +236,4 @@ hr{
   background-image: -o-linear-gradient(top, #ADA2FF, #ADA2FF);
   background-image: linear-gradient(to bottom, #ADA2FF,#ADA2FF);
   text-decoration: none;
-}
-
-.star-1{
-  margin-left: 200px;
 }
