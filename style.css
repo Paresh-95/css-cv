@@ -18,7 +18,8 @@ body{
 }
 
 .alter{
-  padding-left: 420px;
+  padding-left: 50%;
+  
 }
 
 .mySkill{
@@ -26,7 +27,10 @@ body{
   color: #F67280;
 }
 /* images */
-
+.img
+{
+  padding-top: 5%;
+}
 .c-img{
   width: 9%;
 }
@@ -58,12 +62,23 @@ body{
   justify-content: center;
 }
 
+.star-2, .star-1
+{
+  padding: 3%;
+}
+
 .skill-row
 {
   margin-top: 5%;
+  border-radius: 8%;
+  background-color: #DCECC1;
 }
 
-
+.content
+{
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
 .head{
   width: 30%;
@@ -153,8 +168,6 @@ hr{
   border: dotted #ADA2FF 10px;
   border-bottom: none;
   width: 4%;
-  
-
 }
 
 .hr1
@@ -190,6 +203,10 @@ hr{
   border-radius: 100px;
   margin-bottom: 8%;
 }
+
+
+
+
 
 .contact-1{
   margin-top: 30px;
@@ -236,4 +253,10 @@ hr{
   background-image: -o-linear-gradient(top, #ADA2FF, #ADA2FF);
   background-image: linear-gradient(to bottom, #ADA2FF,#ADA2FF);
   text-decoration: none;
+}
+
+.mailTo
+{
+  text-decoration: none;
+  color: black;
 }
